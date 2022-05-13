@@ -14,7 +14,7 @@ while True:
     m -= 1 // 더할 때마다 1씩 빼기
   if m == 0: // m이 0이라면 반복문 탈출
     break
-  reslt += second
+  result += second
   m -= 1
   
-print(reslt)
+print(result)
