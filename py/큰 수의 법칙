@@ -8,13 +8,13 @@ result = 0
 
 while True:
   for i in range(k): // 가장 큰 수 k번 더하기
-    if m == 0: m이 0이라면 반복문 탈출
+    if m == 0: // m이 0이라면 반복문 탈출
       break
     result += first
-    m -= 1
-  if m == 0:
+    m -= 1 // 더할 때마다 1씩 빼기
+  if m == 0: // m이 0이라면 반복문 탈출
     break
   reslt += second
   m -= 1
   
-print(reslt
+print(reslt)
